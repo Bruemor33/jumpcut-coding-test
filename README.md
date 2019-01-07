@@ -1,21 +1,11 @@
-# React 16 and Webpack 4 boiler plate project
+# Jumpcut Coding Challenge
 
-This is a boiler plate I created so that I or anyone could get a react application up and running using a few commands.
-It also served as a learning tool in familiarzing myself with testing in a React application.
+### Challenge Checklist
++ Test Driven Development Examples
++ Show understanding of JS fundamentals(array function, unique functions, using functions as higher order components)
++ Nested Components
++ Appropriate state managemennt
++ Allow the user to optionally add the accumulator / isEven functions to the pipeline.
++ Showcase UI skills
 
-The tech stack is:
-+ React
-+ Redux
-+ Webpack
-+ Babel
-+ Jasmine
-+ Enzyme
 
-## How to get the project running
-
-1. Clone the project using ssH `git clone github:url projectName`
-2. Once the project has been cloned, cd into the project directory `cd projectName/`
-3. Now since you are in the project directory run `npm install` to install the dependecies located in project.json
-4. Once the depencies are installed run `npm run buld` to compile a production version of the project
-5. Once the build is complete you can run `npm run test` to see what the test suite is doing
-6. To use the webpack-dev-server I've included in the project run `npm run watch`
