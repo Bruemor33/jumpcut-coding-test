@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../public/styles/partials/main-heading.scss';
 
-const HelloWorld = () => {
+const MainHeading = () => {
     return (
         <div id="main-heading" className="col-center-8">
             <h1>React Boiler Plate</h1>
@@ -10,4 +10,4 @@ const HelloWorld = () => {
     )
 }
 
-export {HelloWorld};
+export {MainHeading};
