@@ -1,6 +1,7 @@
 # React 16 and Webpack 4 boiler plate project
 
 This is a boiler plate I created so that I or anyone could get a react application up and running using a few commands.
+It also served as a learning tool in familiarzing myself with testing in a React application.
 
 The tech stack is:
 + React
