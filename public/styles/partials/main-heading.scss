@@ -1,0 +1,13 @@
+@import '../variables.scss';
+#main-heading {
+    text-align: center;
+    font-family: $project-font;
+
+    h1, h4 {
+        color: $font-color;
+    }
+}
+
+body {
+    background-color: $background;
+}

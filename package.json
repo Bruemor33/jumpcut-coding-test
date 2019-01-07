@@ -4,7 +4,11 @@
   "description": "Boiler Plate Reactjs with some optional dependencies",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "webpack --mode production",
+    "watch": "webpack-dev-server --mode development --open --hot",
+    "eject": "react-scripts eject",
+    "test": "react-scripts test --env=node"
   },
   "author": "Andrew Rymer",
   "license": "MIT",
@@ -23,12 +27,14 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "webpack": "^4.28.3",
-    "webpack-cli": "^3.2.0"
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14"
   },
   "optionalDependencies": {
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "jasmine-enzyme": "^7.0.1",
+    "react-scripts": "^2.1.3",
     "redux": "^4.0.1"
   }
 }
