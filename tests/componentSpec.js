@@ -1,6 +1,7 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { MainHeading } from '../src/components/index';
+import { MainHeading } from '../src/components/main-heading.js';
+import reducer from '../src/components/reducers/reducer.js';
 
 describe("MainHeading", () => {
     let props;
@@ -31,3 +32,12 @@ describe("MainHeading", () => {
     });
 
 });
+
+describe('reducer', () => {
+    it('should handle an INCREMENT action', () => {
+        expect(reducer(1, {type: 'INCREMeNT'})).toBe(1);
+    })
+    it('should handle the ACCUMULATOR generator', () => {
+        expect(reducer(1, 2, {type: 'ACCUMULATOR'})).toBe(1);
+    })
+})
