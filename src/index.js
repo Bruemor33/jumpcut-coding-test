@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { createStore } from 'redux';
 import { MainHeading } from './components/main-heading.js';
+import { Footer } from './components/footer.js';
 import { Provider } from 'react-redux';
 import reducer from './components/reducers/reducer.js';
 import CounterDisplay from './components/counter-display.js';
@@ -17,6 +18,7 @@ const Main = () => {
             <div className="container">
                 <MainHeading />
                 <CounterDisplay />
+                <Footer />
             </div>
         </Provider>
     )
