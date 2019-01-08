@@ -14,7 +14,7 @@ function reducer(state = initialState, action) {
                 count: state.count - 1
             };
         case 'ACCUMULATOR':
-            function accumulator() {
+            const accumulator = () => {
                 let val = state.count;
                 while (val > 0 | val < 0) {
                     return val + val
@@ -23,11 +23,7 @@ function reducer(state = initialState, action) {
                     return val + 1
                 }
             }
-            var gen = accumulator();
-            function rangeSeq(start, step) {
-                if (start === step) return [start];
-                return [start, ...rangeSeq(start + 1, step)];
-            }
+            const gen = accumulator();
             return {
                 count: gen
             }
