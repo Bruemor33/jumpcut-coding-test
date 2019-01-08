@@ -5,6 +5,13 @@
     grid-auto-rows: minmax(100px, auto);
 }
 
+.inner-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(120px, auto);
+}
+
 .heading-grid {
     grid-column: 4/10;
     grid-row: 2;
@@ -13,53 +20,5 @@
 .count-display-grid {
     @extend .heading-grid;
     grid-row: 3;
-}
-
-// Center Based Columns
-.col-center-12 {
-    grid-column: 1/12;
-    grid-row: 1;
-}
-.col-center-10 {
-    grid-column: 2/12;
-}
-.col-center-8 {
-    grid-column: 3/11;
-}
-.col-center-6 {
-    grid-column: 4/10;
-}
-.col-center-4 {
-    grid-column: 5/9;
-}
-.col-center-2 {
-    grid-column: 6/8;
-}
-
-// Left Based Columns
-.col-left-7 {
-    grid-column: 4/11;
-}
-.col-left-6 {
-    grid-column: 4/10;
-}
-.col-left-5 {
-    grid-column: 4/9;
-}
-.col-left-4 {
-    grid-column: 4/8;
-}
-.col-left-3 {
-    grid-column: 4/7;
-}
-.col-left-2 {
-    grid-column: 4/6;
-}
-.col-left-1 {
-    grid-column: 4/5;
-}
-
-// Right 
-.col-right-4 {
-    grid-column: 8/12;
+    margin-bottom: 200px;
 }

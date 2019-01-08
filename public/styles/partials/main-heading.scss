@@ -2,13 +2,14 @@
 #main-heading {
     text-align: center;
     font-family: $project-font;
-    grid-row: 2;
 
-    h1, h4 {
-        color: $font-color;
+    .left {
+        text-align: left;
+        grid-column: 1/10;
     }
-}
 
-body {
-    background-color: $background;
+    .right {
+        text-align: right;
+        grid-column: 4/13;
+    }
 }
