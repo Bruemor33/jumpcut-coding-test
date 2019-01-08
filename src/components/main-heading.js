@@ -9,7 +9,7 @@ const MainHeading = () => {
                 To increase the number value click or touch the Increase button. To decrease the value, click or touch the Decrease button.
             </p>
             <p className="left">
-                If you would like to increase or decrease(depending on if you start with a negative), use the Accumulate button.
+                If you would like to increase or decrease(depending on if you start with a negative) with a state based equation, use the Accumulate button.
             </p>
         </div>
     )

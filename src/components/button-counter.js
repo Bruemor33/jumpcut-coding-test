@@ -15,10 +15,6 @@ class Counter extends Component {
         this.props.dispatch({ type: 'ACCUMULATOR' });
     }
 
-    looper = () => {
-        this.props.dispatch({ type: 'LOOPING' });
-    }
-
     render() {
 
         return (

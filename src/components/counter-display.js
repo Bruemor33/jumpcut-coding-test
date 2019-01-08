@@ -11,6 +11,7 @@ class CounterDisplay extends Component {
             <div id="count-display" className="count-display-grid">
                 <h2>Count Value</h2>
                 <h4 className="count-value">{ this.props.count }</h4>
+                <h4>{ this.props.rangeGenerator }</h4>
                 <div className="buttons-grid">
                     <Counter />
                 </div>
@@ -21,7 +22,8 @@ class CounterDisplay extends Component {
 
 function mapStateToProps(state) {
     return {
-        count: state.count
+        count: state.count,
+        rangeGenerator: state.rangeGenerator
     }
 }
 
