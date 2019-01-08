@@ -22,6 +22,11 @@ h4 {
     font-weight: $h4-weight;
 }
 
+a {
+    text-decoration: none;
+    color: $secondary;
+}
+
 @media(min-width: $tablet) {
     h1 {
         font-size: $h1-mobile;
