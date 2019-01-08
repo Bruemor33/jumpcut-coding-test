@@ -5,6 +5,16 @@
     grid-auto-rows: minmax(100px, auto);
 }
 
+.heading-grid {
+    grid-column: 4/10;
+    grid-row: 2;
+}
+
+.count-display-grid {
+    @extend .heading-grid;
+    grid-row: 3;
+}
+
 // Center Based Columns
 .col-center-12 {
     grid-column: 1/12;
