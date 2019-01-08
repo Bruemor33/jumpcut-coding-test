@@ -1,0 +1,18 @@
+@import './buttons.scss';
+
+#count-display {
+    text-align: center;
+    align-items: center;
+    font-family: $project-font;
+    font-weight: 700;
+    color: $font-color;
+
+    h4 {
+        font-size: 85px;
+        margin: 40px 0px;
+    }
+
+    .optional-button {
+        margin-top: 20px;
+    }
+}

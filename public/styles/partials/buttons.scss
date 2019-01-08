@@ -1,0 +1,40 @@
+@import '../variables.scss';
+
+.button-primary {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: $project-font;
+    border: 1px solid $accent;
+    border-radius: 10px;
+    color: $background;
+    background-color: $accent;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        box-shadow: 1px 3px 14px -3px rgba(0, 0, 0, 0.75);
+        transition: all 0.5s ease-out;
+    }
+}
+
+.button-secondary {
+    @extend .button-primary;
+    border-color: $secondary;
+    background-color: $secondary;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button-accent {
+    @extend .button-primary;
+    border-radius: 10px !important;
+    border-color: $green;
+    background-color: $green;
+}
