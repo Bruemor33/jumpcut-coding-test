@@ -11,6 +11,7 @@ class CounterDisplay extends Component {
             <div id="count-display" className="count-display-grid">
                 <h2>Count Value</h2>
                 <h4>{ this.props.count }</h4>
+                <h2>Generated Values</h2>
                 <h4>{ this.props.rangeGenerator }</h4>
                 <div className="buttons-grid">
                     <Counter />

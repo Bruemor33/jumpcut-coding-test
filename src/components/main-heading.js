@@ -9,7 +9,7 @@ const MainHeading = () => {
                 To increase the number value click or touch the Increase button. To decrease the value, click or touch the Decrease button.
             </p>
             <p className="left">
-                To accumulate values using the current state of the counter, use the Accumulate button. This will begin update the state of the values running through the range generator.
+                The Accumulation button is interesting. It takes what the current state of the counter is and increments by 2. It also takes that state and enters it into a generator function. This generator then increments from that state by 1 for the amount of calls made within the click action, populating the second value area.
             </p>
         </div>
     )
