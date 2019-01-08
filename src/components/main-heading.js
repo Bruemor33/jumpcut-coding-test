@@ -3,9 +3,14 @@ import '../../public/styles/partials/main-heading.scss';
 
 const MainHeading = () => {
     return (
-        <div id="main-heading" className="col-center-8">
-            <h1>Click Me More</h1>
-            <h4>The point of this application is to manipulate the state of a clickable button that tracks it's clicks</h4>
+        <div id="main-heading" className="heading-grid">
+            <h1>A Counting Application</h1>
+            <p className="left">
+                To increase the number value click or touch the Increase button. To decrease the value, click or touch the Decrease button.
+            </p>
+            <p className="left">
+                If you would like to increase or decrease(depending on if you start with a negative), use the Accumulate button.
+            </p>
         </div>
     )
 }

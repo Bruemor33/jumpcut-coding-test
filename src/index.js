@@ -4,7 +4,6 @@ import { createStore } from 'redux';
 import { MainHeading } from './components/main-heading.js';
 import { Provider } from 'react-redux';
 import reducer from './components/reducers/reducer.js';
-import Counter from './components/button-counter.js';
 import CounterDisplay from './components/counter-display.js';
 import '../public/styles/index.scss';
 
