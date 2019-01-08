@@ -8,8 +8,7 @@ import reducer from './components/reducers/reducer.js';
 import CounterDisplay from './components/counter-display.js';
 import '../public/styles/index.scss';
 
-// console.log(store.dispatch({ type: 'INCREMENT' }));
-
+// Create the store
 const store = createStore(reducer);
 
 const Main = () => {

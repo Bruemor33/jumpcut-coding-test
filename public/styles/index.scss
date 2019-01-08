@@ -2,6 +2,11 @@
 @import "./grid/grid.scss";
 @import "variables.scss";
 
+/*
+ * Declare element styles for design standard
+ * Took a mobile first approach. All larger screened devices will be handled in media query
+ */
+
 body {
     background-color: $background;
     font-family: $project-font;

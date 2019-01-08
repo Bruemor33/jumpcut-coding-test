@@ -1,5 +1,11 @@
 @import '../variables.scss';
 
+/*
+ * Created three button types that could be used elsewhere if needed.
+ * I like rounded edged buttons as well as them having a flat look.
+ * Added a transition on hover to display a box shadow that really brings life to the buttons
+ */
+
 .button-primary {
     padding: 10px 15px;
     font-size: 16px;

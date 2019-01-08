@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import Counter from './button-counter.js';
 import '../../public/styles/partials/count-display.scss';
 
+// A parent component to house layout styling classes for state values and the buttons Counter component
 class CounterDisplay extends Component {
 
     render() {

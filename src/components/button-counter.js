@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import '../../public/styles/partials/buttons.scss';
 
 class Counter extends Component {
+
+    // Instantiate action types using dispatch to be used on the buttons housed here
     increment = () => {
         this.props.dispatch({ type: 'INCREMENT' });
     }
