@@ -1,14 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {MainHeading} from './components/main-heading.js';
+import { createStore } from 'redux';
+import { MainHeading } from './components/main-heading.js';
+import { Provider } from 'react-redux';
+import reducer from './components/reducers/reducer.js';
+import Counter from './components/button-counter.js';
+import CounterDisplay from './components/counter-display.js';
 import '../public/styles/index.scss';
+
+// console.log(store.dispatch({ type: 'INCREMENT' }));
+
+const store = createStore(reducer);
 
 const Main = () => {
     return (
-        <div className="container">
-            <MainHeading />
-        </div>
+        <Provider store={store}>
+            <div className="container">
+                <MainHeading />
+                <CounterDisplay />
+            </div>
+        </Provider>
     )
 }
 
 ReactDOM.render(<Main /> , document.getElementById('app'));
+store.subscribe(Main);
