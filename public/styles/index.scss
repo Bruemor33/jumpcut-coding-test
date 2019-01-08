@@ -9,15 +9,29 @@ body {
 }
 
 h1 {
-    font-size: 48px;
-    font-weight: 700;
+    font-size: $h1-size;
+    font-weight: $h1-weight;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: $h2-size;
 }
 
 h4 {
-    font-size: 16px;
-    font-weight: 200px;
+    font-size: $h4-size;
+    font-weight: $h4-weight;
+}
+
+@media(min-width: $tablet) {
+    h1 {
+        font-size: $h1-mobile;
+    }
+
+    h2 {
+        font-size: $h2-mobile;
+    }
+
+    h4 {
+        font-size: $h4-mobile;
+    }
 }

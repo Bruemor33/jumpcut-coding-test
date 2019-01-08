@@ -1,5 +1,14 @@
+// Typography
 $font-path: url('https://fonts.googleapis.com/css?family=Montserrat');
 $project-font: 'Montserrat', sans-serif;
+$h1-size: 48px;
+$h1-mobile: $h1-size - 10;
+$h1-weight: 700;
+$h2-size: 36px;
+$h2-mobile: $h2-size - 5;
+$h4-size: 16px;
+$h4-mobile: $h4-size - 4;
+$h4-weight: 200;
 
 // colors
 $background: #E7E5E8;
@@ -8,3 +17,9 @@ $accent: #6C698D;
 $primary: #BFAFA6;
 $secondary: #AA968A;
 $green: #97AF9C;
+
+// Media Queries
+$large-phone: 540px;
+$tablet: 720px;
+$laptop: 960px;
+$desktop: 1140px; 
