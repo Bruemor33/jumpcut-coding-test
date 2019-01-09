@@ -1,5 +1,13 @@
 # Jumpcut Coding Challenge
 
+### Project Launch Instructions
+1. Clone the project using ssh `git clone github:url projectName`
+2. Once the project has been cloned, cd into the project directory `cd projectName/`
+3. Now since you are in the project directory run `npm install` to install the dependecies located in project.json
+4. Once the depencies are installed run `npm run buld` to compile a production version of the project
+5. Once the build is complete you can run `npm run test` to see what the test suite is doing
+6. To use the webpack-dev-server I've included in the project run `npm run watch`
+
 ### Challenge Checklist
 + Test Driven Development Examples
 + Show understanding of JS fundamentals
